@@ -1,0 +1,30 @@
+{
+	"products":
+	[
+		{
+			"id": "dClassic",
+			"name": "Classic",
+			"price": "100"
+		},
+		{
+			"id": "dShorty",
+			"name": "Shorty",
+			"price": "200"
+		},
+		{
+			"id": "dFrenzy",
+			"name": "Frenzy",
+			"price": "300"
+		},
+		{
+			"id": "dGhost",
+			"name": "Ghost",
+			"price": "400"
+		},
+		{
+			"id": "dSheriff",
+			"name": "Sheriff",
+			"price": "500"
+		}
+	]
+}

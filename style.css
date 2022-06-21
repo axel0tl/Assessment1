@@ -1,0 +1,143 @@
+body, html {
+  font-family: helvetica, sans-serif;
+  margin: 5px 0 0;
+  background-color: #1B2430;
+}
+
+/* ---------Navigation section--------- */
+nav {
+  width: 100%;
+  /* height: 60px; */
+  background: #C74B50;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+}
+
+.shopName {
+  color: black;
+  position: absolute;
+  margin: 0;
+  border: 0;
+  padding: 16px 10px;
+}
+
+.cart {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  overflow: hidden;
+  /* float: right; */
+  display: block;
+  margin-left: auto;
+  /* margin-right: auto; */
+  cursor: pointer;
+}
+/* ---------End Navigation section--------- */
+
+
+
+/* ---------Carousel section--------- */
+.carousel {
+  position: relative;
+  margin: 20px 10% 30px;
+}
+
+.carouselItem {
+  height: 300px;
+  background: #e6e6e6;
+  padding: 0;
+  font-weight: bold;
+  font-size: 2em;
+  color: #ffffff;
+  display: none;
+}
+
+.itemDisplay {
+  height: 300px;
+  display: block;
+  margin: 0 auto 0;
+}
+
+.carouselItem-selected {
+  display: block;
+}
+
+.carouselNavigation {
+  width: 100%;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.carouselButton {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: #D7A86E;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carouselButton-selected {
+  background: #8E3200;
+}
+
+/* ---------End Carousel section--------- */
+
+
+
+/* ---------Products Display---------- */
+.productContainer {
+  margin: 50px 10% 10px;
+  background-color: #51557E;
+
+  display: flex; /*aligns horizontally*/
+  flex-wrap: wrap; /*mag display sa new row if wala ng space*/
+  justify-content: space-between;
+}
+
+.productCard {
+  background-color: #D6D5A8;
+  border: 1px solid black;
+
+  max-width: 110px;
+
+  margin: 5px;
+  padding: 2%;
+  flex: 1 16%;
+
+  display: table-row;
+  text-align: center;
+}
+
+.productInfo {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.productIcon {
+  width: 70px;
+  height: 47px;
+}
+
+.productButton {
+  height: 20px;
+}
+
+h5, h6 {
+  margin: 0;
+
+}
+/* ---------End Products Display---------- */
